@@ -17,7 +17,7 @@ public class Print_Test
         char gender =s.nextLine().charAt(0);
         System.out.println("Completed higher school");
         boolean school=s.nextBoolean();
-        System.out.printf("Your name is%s%n Age is %d",name,age);
+        System.out.printf("Your name is%s%n Age is %d%n you got the marks %.2f%n you're a %s%nYou have completes school%b",name,age,marks,gender,school);
 
 
     }
