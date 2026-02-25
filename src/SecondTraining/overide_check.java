@@ -1,6 +1,6 @@
 package SecondTraining;
 
-    class suri extends overide_check {
+    class oveide_check extends suri {
 
         // This OVERRIDES the test(int a) method from method_check
       //  @Override
@@ -14,7 +14,7 @@ package SecondTraining;
             suri myObj = new suri();
 
             // This will call the OVERRIDDEN version in suri
-          //  System.out.println("Result from suri: " + myObj.test(10));
+            System.out.println("Result from suri: " + myObj.test(10));
 
             // This will still call the OVERLOADED version from the parent
             // because we didn't override the two-parameter version
